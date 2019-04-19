@@ -1,0 +1,1 @@
+官方下载的thrift_0.5.0.exe在windows下不能正常运行，需要去掉compiler/cpp/src/main.cc中192行的CharLowerBuff（buf，len），用MinGW64重新编译。
